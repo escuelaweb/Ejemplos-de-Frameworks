@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>
+    Manejo de Columnas Estaticas
+  </title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+    .center {
+      text-align: center;
+    }
+    .fondos {
+      padding: 20px 0; 
+      background-color: #EBEBEB;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .fondos .fondos {
+      background-color: #D1D1D1;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="fondos">
+          <h1 class="center">
+            12 Columnas
+          </h1>
+        </div> <!-- .fondos -->
+      </div><!-- .span12 -->
+    </div><!-- .row -->
+    
+    <div class="row">
+      <div class="span4">
+        <div class="fondos">
+          <h3 class="center">4 columnas</h3>
+        </div>
+      </div> <!-- .span4 -->
+      <div class="span4">
+        <div class="fondos">
+          <h3 class="center">4 columnas</h3>
+        </div>
+      </div> <!-- .span4 -->
+      <div class="span4">
+        <div class="fondos">
+          <h3 class="center">4 columnas</h3>
+        </div>
+      </div> <!-- .span4 -->
+    </div> <!-- .row -->
+    
+    <div class="row">
+      <div class="span3">
+        <div class="fondos">
+          <h3 class="center">3columnas</h3>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="fondos">
+          <h3 class="center">3columnas</h3>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="fondos">
+          <h3 class="center">3columnas</h3>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="fondos">
+          <h3 class="center">3columnas</h3>
+        </div>
+      </div>
+    </div> <!-- .row -->
+    
+    <!-- div.row>(div.span8.fondos>(div.row>h2.center.span8{8 columnas}+(div.span2*4>div.fondos>h3.center{2columnas dentro de 8})))+div.span4>div.fondos>h3.center{4 columnas} -->
+    <div class="row">
+      <div class="span8 fondos">
+        <div class="row">
+          <h2 class="center span8">8 columnas</h2>
+          <div class="span2">
+            <div class="fondos">
+              <h5 class="center">2columnas dentro de 8</h5>
+            </div>
+          </div>
+          <div class="span2">
+            <div class="fondos">
+              <h5 class="center">2columnas dentro de 8</h5>
+            </div>
+          </div>
+          <div class="span2">
+            <div class="fondos">
+              <h5 class="center">2columnas dentro de 8</h5>
+            </div>
+          </div>
+          <div class="span2">
+            <div class="fondos">
+              <h5 class="center">2columnas dentro de 8</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="fondos">
+          <h5 class="center">4 columnas</h5>
+        </div>
+      </div>
+    </div>
+    
+  </div><!-- .container -->
+  
+  <!-- Librerias JS -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
