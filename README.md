@@ -46,3 +46,10 @@ Los archivos HTML deben estar en **HTML5** por defecto y utilizando indentacion 
 </body>
 </html>
 ```
+
+## Colaboradores
+
+  - Sergio Marin [@highercomve](https://github.com/highercomve)
+  - Renier Chico [@racs182](https://github.com/racs182)
+  - Gustavo Gimenez [@GusGA](https://github.com/GusGA)
+  - Ramon Ciriaco [@zamuro57](https://github.com/zamuro57)
