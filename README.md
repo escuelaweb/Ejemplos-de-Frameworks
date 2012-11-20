@@ -24,3 +24,21 @@ El repositorio esta dividido en dos carpetas, una carpeta llamada Boostrap y otr
       - img
       
 Los archivos HTML deben estar en HTML5 por defecto y utilizando indentacion de espacios (2)
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Estructura html5 por defecto</title>
+  
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  
+</body>
+</html>
+```
