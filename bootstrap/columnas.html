@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manejo de Columnas Estaticas</title>
+  <link rel="stylesheet" href="librerias/bootstrap/css/bootstrap.min.css">
+  <style>
+    .center {
+      text-align: center;
+    }
+    .fondos {
+      padding: 20px 0; 
+      background-color: #EBEBEB;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .fondos .fondos {
+      background-color: #D1D1D1;
+    }
+    .jumbotron {
+      position: relative;
+      padding: 40px 0;
+      color: white;
+      text-align: center;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+      background: #020031;
+      background: -moz-linear-gradient(45deg, #020031 0%, #6D3353 100%);
+      background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6D3353));
+      background: -webkit-linear-gradient(45deg, #020031 0%,#6D3353 100%);
+      background: -o-linear-gradient(45deg, #020031 0%,#6D3353 100%);
+      background: -ms-linear-gradient(45deg, #020031 0%,#6D3353 100%);
+      background: linear-gradient(45deg, #020031 0%,#6D3353 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 );
+      -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
+      -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+      box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="./index.html">Highercomve</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li>
+              <a href="#">Enlace 1</a>
+            </li>
+            <li>
+              <a href="#">Enlace 2</a>
+            </li>
+            <li>
+              <a href="#">Enlace 3</a>
+            </li>
+            <li>
+              <a href="#">Enlace 4</a>
+            </li>
+            <li>
+              <a href="#">Enlace 5</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="jumbotron subhead" id="overview">
+    <div class="container">
+      <h1>Highercomve</h1>
+      <p class="lead">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dicta quod assumenda illum deserunt veritatis culpa fuga natus ipsum qui rem eligendi! Labore quaerat unde qui maxime suscipit similique quia!
+      </p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="fondos">
+          <h1 class="center">12 Columnas</h1>
+        </div>
+        <!-- .fondos --> </div>
+      <!-- .span12 --> </div>
+    <!-- .row -->
+
+    <div class="row">
+      <div class="span4">
+        <div class="fondos">
+          <h3 class="center">4 columnas</h3>
+        </div>
+      </div>
+      <!-- .span4 -->
+      <div class="span4">
+        <div class="fondos">
+          <h3 class="center">4 columnas</h3>
+        </div>
+      </div>
+      <!-- .span4 -->
+      <div class="span4">
+        <div class="fondos">
+          <h3 class="center">4 columnas</h3>
+        </div>
+      </div>
+      <!-- .span4 --> </div>
+    <!-- .row -->
+
+    <div class="row">
+      <div class="span3">
+        <div class="fondos">
+          <h3 class="center">3columnas</h3>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="fondos">
+          <h3 class="center">3columnas</h3>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="fondos">
+          <h3 class="center">3columnas</h3>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="fondos">
+          <h3 class="center">3columnas</h3>
+        </div>
+      </div>
+    </div>
+    <!-- .row -->
+
+    <!-- div.row>
+    (div.span8.fondos>(div.row>h2.center.span8{8 columnas}+(div.span2*4>div.fondos>h3.center{2columnas dentro de 8})))+div.span4>div.fondos>h3.center{4 columnas} -->
+    <div class="row">
+      <div class="span8 fondos">
+        <div class="row">
+          <h2 class="center span8">8 columnas</h2>
+          <div class="span2">
+            <div class="fondos">
+              <h5 class="center">2columnas dentro de 8</h5>
+            </div>
+          </div>
+          <div class="span2">
+            <div class="fondos">
+              <h5 class="center">2columnas dentro de 8</h5>
+            </div>
+          </div>
+          <div class="span2">
+            <div class="fondos">
+              <h5 class="center">2columnas dentro de 8</h5>
+            </div>
+          </div>
+          <div class="span2">
+            <div class="fondos">
+              <h5 class="center">2columnas dentro de 8</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="fondos">
+          <h5 class="center">4 columnas</h5>
+          <img src="http://placehold.it/300x300" alt=""></div>
+      </div>
+    </div>
+    <!-- .row --> </div>
+  <!-- .container -->
+
+  <!-- Librerias JS -->
+  <script src="librerias/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
