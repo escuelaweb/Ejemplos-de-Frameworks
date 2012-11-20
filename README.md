@@ -27,7 +27,7 @@ El repositorio esta dividido en dos carpetas, una carpeta llamada Boostrap y otr
 
 ## Estilos del HTML
 
-Los archivos HTML deben estar en HTML5 por defecto y utilizando indentacion de espacios (2)
+Los archivos HTML deben estar en **HTML5** por defecto y utilizando indentacion de dos (2) espacios
 
 ```html
 <!doctype html>
