@@ -22,7 +22,9 @@ El repositorio esta dividido en dos carpetas, una carpeta llamada Boostrap y otr
       - css
       - js
       - img
-      
+
+## Estilos del HTML
+
 Los archivos HTML deben estar en HTML5 por defecto y utilizando indentacion de espacios (2)
 
 ```html
