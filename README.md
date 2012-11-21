@@ -1,7 +1,9 @@
 Ejemplos Frameworks HTML/CSS/JS
 ===============================
 
-Este repositorio esta destinado a colocar ejemplos de diagramaciones utilizando los frameworks Twitter Boostrap y ZurbFoundation.
+Este repositorio esta destinado a colocar ejemplos de diagramaciones utilizando los frameworks Twitter Boostrap [Download](http://twitter.github.com/bootstrap/) y ZurbFoundation [Download](http://foundation.zurb.com/).
+
+
 
 ## Estructura de Carpetas
 
@@ -16,7 +18,7 @@ El repositorio esta dividido en dos carpetas, una carpeta llamada Boostrap y otr
       - ejemplo1
       
   - librerias (carpeta donde se colocaran las librerias que se esten usando)
-    - bootstrap
+    - bootstrap 
       - css
       - js
       - img
@@ -27,7 +29,7 @@ El repositorio esta dividido en dos carpetas, una carpeta llamada Boostrap y otr
 
 ## Estilos del HTML
 
-Los archivos HTML deben estar en HTML5 por defecto y utilizando indentacion de espacios (2)
+Los archivos HTML deben estar en **HTML5** por defecto y utilizando indentacion de dos (2) espacios
 
 ```html
 <!doctype html>
@@ -46,3 +48,10 @@ Los archivos HTML deben estar en HTML5 por defecto y utilizando indentacion de e
 </body>
 </html>
 ```
+
+## Colaboradores
+
+  - Sergio Marin [@highercomve](https://github.com/highercomve)
+  - Renier Chico [@racs182](https://github.com/racs182)
+  - Gustavo Gimenez [@GusGA](https://github.com/GusGA)
+  - Ramon Ciriaco [@zamuro57](https://github.com/zamuro57)
