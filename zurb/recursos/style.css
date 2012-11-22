@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box {
+	border: 1px solid #EEE;
+	padding: 10px 20px 20px;
+}
+
+.button.small {
+	float: right;
+}
+
+.breadcrumbs {
+	float: right;
+}
+
+.separator {
+	margin-bottom: 150px;
+}
